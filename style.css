@@ -1,0 +1,42 @@
+* {
+    background-color: #ceb3fd;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #303720;
+    text-align: center;
+}
+
+h2,
+.peperoni_description_text,
+.doner_description_text {
+    text-align: center;
+}
+
+.home_img,
+.doner_img,
+.pepperoni_img {
+    text-align: center;
+}
+
+.home_title {
+    text-align: center;
+    font-size: 60px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.recipes_list{
+    text-align: center;
+    list-style-type: none;
+    font-size: 30px;
+    color: tomato;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: black;
+}
