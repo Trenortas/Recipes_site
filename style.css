@@ -1,42 +1,146 @@
 * {
-    background-color: #ceb3fd;
-    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #154a63;
+}
+
+/* ----------------------------------------------------------- */
+
+img {
+    width: 650px;
+    border: 2px solid #154a63;
+    border-radius: 10pt;
+}
+
+ul {
+    list-style: none;
 }
 
 h1 {
-    color: #303720;
-    text-align: center;
+    color: #154a63;
+    font-size: 50px;
 }
 
-h2,
-.peperoni_description_text,
-.doner_description_text {
-    text-align: center;
-}
-
-.home_img,
-.doner_img,
-.pepperoni_img {
-    text-align: center;
-}
-
-.home_title {
-    text-align: center;
-    font-size: 60px;
-}
-
-h1 {
-    font-size: 60px;
-}
-
-.recipes_list{
-    text-align: center;
-    list-style-type: none;
+h2 {
     font-size: 30px;
-    color: tomato;
 }
 
-a, a:visited{
+.main-page-card {
+    width: 750px;
+    text-align: center;
+    background-color: #e4dfaa;
+    margin: 20px auto;
+    padding: 50px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    border-radius: 10pt;
+}
+
+.main-page-content {
+    padding: 20px;
+}
+
+.main-page-content ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #154a63;
+    color: #e4dfaa;
     text-decoration: none;
-    color: black;
+    margin: 10px;
+    padding: 10px 12px;
+    border-radius: 20pt;
+}
+
+.main-page-card.feature {
+    border: 2px solid #e4dfaa;
+}
+
+.main-page-card li {
+    margin: 20px;
+}
+
+/* ----------------------------------------------------------- */
+
+.pepperoni-img {
+    width: 450px;
+    border: 2px solid #154a63;
+    margin: 10px;
+}
+
+.pepperoni-list1 {
+    list-style: none;
+}
+
+.pepperoni-list2 {
+    text-align: left;
+}
+
+.pizza-page-card {
+    width: 750px;
+    text-align: center;
+    background-color: #e4dfaa;
+    margin: 20px auto;
+    padding: 50px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    border-radius: 10pt;
+}
+
+.pepperoni-page-content h2,
+.pepperoni-page-content ul li,
+.pepperoni-page-content ol li,
+.pepperoni-page-content p {
+    color: #154a63;
+}
+
+.pepperoni-page-content ul li,
+.pepperoni-page-content ol li,
+.pepperoni-page-content p {
+    margin: 10px;
+    font-size: 17px;
+}
+
+/* ----------------------------------------------------------- */
+
+.doner-img {
+    width: 450px;
+    border: 2px solid #154a63;
+    margin: 10px;
+}
+
+.doner-list1 {
+    list-style: none;
+}
+
+.doner-list2 {
+    text-align: left;
+}
+
+.doner-page-card {
+    width: 750px;
+    text-align: center;
+    background-color: #e4dfaa;
+    margin: 20px auto;
+    padding: 50px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    border-radius: 10pt;
+}
+
+.doner-page-content h2,
+.doner-page-content ul li,
+.doner-page-content ol li,
+.doner-page-content p {
+    color: #154a63;
+}
+
+.doner-page-content ul li,
+.doner-page-content ol li,
+.doner-page-content p {
+    margin: 10px;
+    font-size: 17px;
 }
